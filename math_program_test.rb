@@ -16,4 +16,12 @@ class TestMath < Minitest::Test
 	assert_equal(5,subtraction(10,5))
 	end
 
+	def test_multiplication
+		assert_equal(144,multiplication(12,12))
+	end	
+
+	def test_division
+		assert_equal(6, division(12,2))
+	end	
+
 end	
